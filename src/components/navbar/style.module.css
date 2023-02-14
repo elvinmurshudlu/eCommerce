@@ -1,0 +1,13 @@
+.navbar{
+    width: 60px;
+    height: 100vh;
+    background-color: rebeccapurple;
+    padding-top: 20px;
+
+}
+.icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px;
+}
