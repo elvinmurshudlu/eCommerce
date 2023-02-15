@@ -1,15 +1,17 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter, Routes, Route } from "react-router-dom"
-import axios from "axios";
 import {Navbar} from "./components/navbar/Navbar"
-
+import { Outlet } from 'react-router-dom';
+import {Bag} from "./components/main/bagAside/Bag"
 function App() {
-
+  
+  // console.log(getData())
   
   return (
     <>
     <Navbar></Navbar>
+    <Outlet></Outlet>
+    <Bag></Bag>
     </>
   );
 }

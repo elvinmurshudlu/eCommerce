@@ -1,6 +1,6 @@
 .navbar{
     width: 60px;
-    height: 100vh;
+    min-height: 100vh;
     background-color: rebeccapurple;
     padding-top: 20px;
 

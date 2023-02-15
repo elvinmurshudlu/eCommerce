@@ -5,3 +5,11 @@
     list-style: none;
     text-decoration: none;
 }
+#root{
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    cursor: pointer;
+}
