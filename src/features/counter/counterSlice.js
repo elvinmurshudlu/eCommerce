@@ -19,14 +19,15 @@ export const backetSlice = createSlice({
   // The `reducers` field lets us define reducers and generate associated actions
   reducers: {
     addProduct:(state,action)=>{
-      let product = action.payload      
+      let product = action.payload 
+      console.log("Product",product.productName + product.id)     
 
-      if(state.products[product.id]){
-        state.products[product.id].count ++
+      if(state.products[product.productName + product.id]){
+        state.products[product.productName + product.id].count ++
         // console.log(state.products[product.id].count)        
       }else{
         product.count = 1
-        state.products[product.id] = product
+        state.products[product.productName + product.id] = product
         // console.log(state.products[product.id])
       }
       state.totalProducts ++

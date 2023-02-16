@@ -13,7 +13,7 @@ export  function TotalProducts({searchedItem}) {
   async function getData(){
     let response = await axios("http://localhost:3200/products")    
 
-    if(searchedItem ==""){
+    if(!searchedItem){
       
     setProducts(response.data)
     }else{
@@ -44,8 +44,8 @@ export  function TotalProducts({searchedItem}) {
 // console.log(products)
   return (
     <div className={s.products}>
-    {products && products.map((product,b)=>(
-      <ProductItem imageUrl={product.img}  productName={product.name} productSeries={product.model} price={product.price} id={product.id} ></ProductItem>
+    {products && products.map((product,index)=>(
+      <ProductItem key={index} imageUrl={product.img}  productName={product.name} productSeries={product.model} price={product.price} id={product.id} ></ProductItem>
     ))
     }
    

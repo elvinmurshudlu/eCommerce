@@ -1,6 +1,57 @@
 .bagSection{
     width: 350px;
     /* height: 100%; */
-    background-color: red
-    ;
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 10px;
+    gap: 30px;
+}
+
+.button{
+  
+    width: 180px;
+    height: 40px;
+    background-color: black;
+    border-radius: 15px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    font-size: 18px;
+    letter-spacing: 1px;
+}
+.button >svg{
+    width: 23px;
+}
+
+.bagSection > h2{
+    font-size: 40px;
+    color: black;
+    font-weight: 600;
+}
+
+.bagItems{
+    width: 80%;
+    display: flex;
+    gap: 5px;
+    flex-wrap: wrap;
+}
+
+
+.bagItem{
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    overflow: hidden;
+    border-radius: 10px;
+
+}
+
+.bagItem > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }

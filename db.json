@@ -8,7 +8,7 @@
             "count": 1,
             "rating": "4.5",
             "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
-            "img": "https://s3-alpha-sig.figma.com/img/fa1f/be64/ed50c4462e52d610e63d19d62e7f6845?Expires=1677456000&Signature=XSM5l0So-5orWUfPKoDVdZK7fetefUo-XEez5OwdCLyriKpweUjimwur3MqecinH2Fmbh3f5dC7~eNdqR5T2G8OTgZYuYH3ZmuE6HbXlHgV6CI2P0PDo7VrIY9PrWZw0u-cdNh7Giw9EiDUhPbjWHOJvHaC0HgNNPEdHYzvrTxxZdJ~jJkuo3bC7DYz8dOW1aOpxaRlzPICvihEv9CtelmxpsEgfkfzr2oZQ8ZtBnd4T~wlqVxGU6b0gOXkvwqXiBOkyfP5hLhMqGfHwFxx1vw9~fIiIIVKZsFg~DE-oM177K7Rc7I-8DhsI-qvGYW6-RRUTlmlVUt-QTNE~wijMGw__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+            "img": ["https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/Apple-Watch.svg"]
           },
           {
             "id": 1,
@@ -19,7 +19,7 @@
             "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
       
             "count": 1,
-            "img": "https://s3-alpha-sig.figma.com/img/1692/3f58/b026c8cecfc1f775a44b9bb9c66adf81?Expires=1677456000&Signature=BX~cOhMwhTeq9t1H-gyficK8HjKw6tBtwqDZCMN-K6wnIfxtbCF-n1fSG36b0HlrLNjFKmon-x3TVAXR6IjKZkCuc9VPBN54hJVeET9PFFHsXWgeYT11G6fntSHdbgV5uJ6oSd8TdGR4YtlAMIg-ybzVo~dWcwTi6ybWMQyG0fVUf6L0DjM3Bvrc~lylN3X-PJyCEF3POVpOCOkLNpt1YpGsPqFjF5B-V9ODvosibdlyBhEX9YPpUcJIKKqses2jqgyZAp-LL7wJiqPWbn9aDOnpMiquaLoLWYfloKBOVljqsvEW0O9xqB4x-5aVRnMBFpo9JRYGTCLQVZX10nowUA__&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4"
+            "img": ["https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/qulaqciq.svg"]
           },
           {
             "id": 2,
@@ -30,7 +30,7 @@
             "rating": "4.5",
             "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
       
-            "img": "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/Apple11-Black.svg"
+            "img": ["https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/Apple11-Black.svg"]
           },
           {
             "id": 3,
@@ -41,7 +41,7 @@
             "rating": "4.5",
             "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
       
-            "img": "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple11-Green.svg"
+            "img": ["https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple11-Green.svg"]
           },
           {
             "id": 4,
@@ -52,7 +52,7 @@
             "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
       
             "rating": "4.5",
-            "img": "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/macbook-16-pro.svg"
+            "img": ["https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/macbook-16-pro.svg"]
           },
           {
             "id": 5,
@@ -63,7 +63,7 @@
             "rating": "4.5",
             "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
       
-            "img": "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple11-red.svg"
+            "img": ["https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple11-red.svg"]
           },
           {
             "id": 6,
@@ -74,7 +74,7 @@
             "rating": "4.5",
             "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
       
-            "img": "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple11-white.svg"
+            "img": ["https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple11-white.svg"]
           },
           {
             "id": 7,
@@ -85,7 +85,7 @@
             "rating": "4.5",
             "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
       
-            "img": "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple12-pink.svg"
+            "img": ["https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple12-pink.svg"]
           },
           {
             "id": 8,
@@ -96,7 +96,7 @@
             "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
       
             "rating": "4.5",
-            "img": "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple12-blue.svg"
+            "img": ["https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple12-blue.svg"]
           },
           {
             "id": 9,
@@ -107,7 +107,7 @@
       
             "count": 1,
             "rating": "4.5",
-            "img": "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/dellxps15-1.svg"
+            "img": ["https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/dellxps15-1.svg"]
           },
           {
             "id": 10,
@@ -118,7 +118,7 @@
             "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
       
             "rating": "4.5",
-            "img": "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple13Pro-silver.svg"
+            "img": ["https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple13Pro-silver.svg"]
           },
           {
             "id": 11,
@@ -129,7 +129,7 @@
             "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
       
             "rating": "4.5",
-            "img": "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple13Pro-grey.svg"
+            "img": ["https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple13Pro-grey.svg"]
           },
           {
             "id": 12,
@@ -140,7 +140,7 @@
             "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
       
             "count": 1,
-            "img": "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/samsungNote21.svg"
+            "img": ["https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/samsungNote21.svg"]
           },
           {
             "id": 13,
@@ -151,7 +151,7 @@
             "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
       
             "count": 1,
-            "img": "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/samsungS21%2B.svg"
+            "img": ["https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/samsungS21%2B.svg"]
           },
           {
             "id": 14,
@@ -162,7 +162,7 @@
             "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
       
             "count": 1,
-            "img": "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/dellXps13.svg"
+            "img": ["https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/dellXps13.svg"]
           },
           {
             "id": 15,
@@ -173,7 +173,7 @@
       
             "rating": "4.5",
             "count": 1,
-            "img": "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/dellXps15-2.svg"
+            "img": ["https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/dellXps15-2.svg"]
           }
-    ]
+        ]
 }

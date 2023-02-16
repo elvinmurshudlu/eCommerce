@@ -4,6 +4,7 @@ import {BsBagPlusFill} from "react-icons/bs"
 import { useDispatch } from 'react-redux'
 import { addProduct } from '../../../../features/counter/counterSlice'
 export  function ProductItem({imageUrl , productName,productSeries,price,id}) {
+  
   let dispatch = useDispatch()
   function addBacket(){
     dispatch(addProduct({imageUrl,productName,productSeries,price,id}))
@@ -14,7 +15,7 @@ export  function ProductItem({imageUrl , productName,productSeries,price,id}) {
   return (
     <div key="hgf" className={s.product}>
       <div className={s.image}>
-        <img src={imageUrl} alt={productName} />
+        <img src={imageUrl[0]} alt={productName} />
       </div>
 
       <div className={s.productContent}>

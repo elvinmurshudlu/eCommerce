@@ -69,11 +69,12 @@ button{
     display: block;
     width: 30px;
     height: 30px;
-    background: white;
+    background: black;
     border-radius: 10px;
 }
 
 button > svg{
-    width: 80%;
-    height: 80%;
+    color: white;
+    width: 75%;
+    height: 75%;
 }
