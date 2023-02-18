@@ -1,29 +1,32 @@
 import React from 'react'
 import s from "./style.module.css"
 import {BsBagPlusFill} from "react-icons/bs"
-import { useDispatch } from 'react-redux'
+import { useDispatch,useSelector } from 'react-redux'
 import { addProduct } from '../../../../features/counter/counterSlice'
-export  function ProductItem({imageUrl , productName,productSeries,price,id}) {
+import FetchData from "../../../../api/FetchApi"
+
+export  function ProductItem({product}) {
+  
+  
   
   let dispatch = useDispatch()
   function addBacket(){
-    dispatch(addProduct({imageUrl,productName,productSeries,price,id}))
-    // console.log(imageUrl,productName,productSeries,price,id)
+    dispatch(addProduct(product))    
 
   }
 
   return (
-    <div key="hgf" className={s.product}>
+    <div  className={s.product}>
       <div className={s.image}>
-        <img src={imageUrl[0]} alt={productName} />
+        <img src={product.img[0]} alt={product.name} />
       </div>
 
       <div className={s.productContent}>
-        <h4>{productName}</h4>
-        <p>{productSeries}</p>
+        <h4>{product.name}</h4>
+        <p>{product.model}</p>
         <div className={s.price}>
 
-          <span>$ {price}</span>
+          <span>$ {product.price}</span>
           <button onClick={addBacket}><BsBagPlusFill></BsBagPlusFill></button>
           
         </div>

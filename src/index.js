@@ -8,6 +8,8 @@ import { Home } from './components/main/home/Home';
 
 
 import './index.css';
+import { Backet } from './components/main/Backet/Backet';
+import { Bag } from './components/main/bagAside/Bag';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
@@ -17,14 +19,16 @@ root.render(
     <Provider store={store}>
       <BrowserRouter>
         <Routes>
+          
           <Route path='/' element={<App></App>}>
-            <Route path='/' element={<Home></Home>}></Route>
+            <Route path='/' element={<><Home></Home><Bag></Bag></>}></Route>
+            <Route path='/backet' element={<><Backet></Backet><Bag checkout={true}></Bag></>}></Route>
           </Route>
 
         </Routes>
       </BrowserRouter>
     </Provider>
-  </React.StrictMode>
+   </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

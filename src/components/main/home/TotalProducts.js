@@ -11,10 +11,9 @@ export  function TotalProducts({searchedItem}) {
   
 
   async function getData(){
-    let response = await axios("http://localhost:3200/products")    
+    let response = await axios("http://localhost:3200/products")
 
-    if(!searchedItem){
-      
+    if(!searchedItem){      
     setProducts(response.data)
     }else{
       let filteredItems = []
@@ -24,16 +23,11 @@ export  function TotalProducts({searchedItem}) {
         if(currentName.includes(searchedItem.toLowerCase())){
         // console.log(response.data[a].name)
         filteredItems.push(response.data[a])
-
         }
-
       }
-
       // console.log(response.data.length)
       setProducts(filteredItems)
-    }
-
-    
+    }    
   }
 
   useEffect(()=>{
@@ -45,7 +39,7 @@ export  function TotalProducts({searchedItem}) {
   return (
     <div className={s.products}>
     {products && products.map((product,index)=>(
-      <ProductItem key={index} imageUrl={product.img}  productName={product.name} productSeries={product.model} price={product.price} id={product.id} ></ProductItem>
+      <ProductItem key={index} product={product} ></ProductItem>
     ))
     }
    

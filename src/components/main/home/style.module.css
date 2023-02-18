@@ -1,10 +1,11 @@
 .main{
     /* background: black; */
     padding-top: 15px;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     row-gap: 30px;
-    width: 73%;
+    width: 78%;
     align-items: center;
     background-color: #ededed;
 }
@@ -13,6 +14,6 @@
     width: 90%;
     display: flex;
     flex-wrap: wrap;
-    gap: 40px;
+    gap: 30px;
     justify-content: center;
 }

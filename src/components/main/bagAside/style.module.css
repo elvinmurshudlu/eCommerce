@@ -7,6 +7,8 @@
     align-items: center;
     padding: 10px 10px;
     gap: 30px;
+    position: fixed;
+    right: 0;
 }
 
 .button{
