@@ -5,16 +5,17 @@ import { useDispatch,useSelector } from 'react-redux'
 import { addProduct } from '../../../../features/counter/counterSlice'
 import FetchData from "../../../../api/FetchApi"
 import { useNavigate } from 'react-router-dom'
+import AddBacket from './AddBacket'
 
 export  function ProductItem({product}) {
   let navigate = useNavigate()
    
   
-  let dispatch = useDispatch()
-  function addBacket(e){    
-    dispatch(addProduct(product))    
-    e.stopPropagation()
-  }
+  // let dispatch = useDispatch()
+  // function addBacket(e){    
+  //   dispatch(addProduct(product))    
+  //   e.stopPropagation()
+  // }
 
   
 
@@ -30,7 +31,8 @@ export  function ProductItem({product}) {
         <div className={s.price}>
 
           <span>$ {product.price}</span>
-          <button onClick={(e)=>addBacket(e)}><BsBagPlusFill></BsBagPlusFill></button>
+          {/* <button onClick={(e)=>addBacket(e)}><BsBagPlusFill></BsBagPlusFill></button> */}
+          <AddBacket product={product}></AddBacket>
           
         </div>
 

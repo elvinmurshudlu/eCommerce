@@ -10,7 +10,7 @@ export  function BagItems({backetItems}) {
     <div className={s.bagItems}>
         {
             backetItems.map((backetItem,index)=>(
-                <Bagİtem key={index} image={backetItem.img}></Bagİtem>
+                <Bagİtem key={index} item={backetItem}></Bagİtem>
             ))
         }
 

@@ -49,6 +49,23 @@
     background-color: black;
     overflow: hidden;
     border-radius: 10px;
+    position: relative;
+
+}
+
+.productCount{
+    position: absolute;
+    top: 0;
+    right: 5px;
+    display: flex;
+    font-size: 10px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 100px;
+    background-color: red;
 
 }
 
