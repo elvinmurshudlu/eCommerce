@@ -11,5 +11,6 @@ export default class FetchData{
 
         return await axios.patch(baseUrl+location,data)
     }
+    
 
 }

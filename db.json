@@ -194,19 +194,9 @@
     }
   ],
   "backet": {
-    "backet": {
-      "Sony ZX331BT1": {
-        "id": 1,
-        "name": "Sony ZX331BT",
-        "model": "Light Grey",
-        "price": "39.99",
-        "rating": "4.5",
-        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
-        "count": 54,
-        "img": [
-          "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/qulaqciq.svg"
-        ]
-      }
-    }
+    "backet": {}
+  },
+  "newProducts": {
+    "newProduct": {}
   }
 }

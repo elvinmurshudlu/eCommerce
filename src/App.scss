@@ -8,8 +8,24 @@
 #root{
     display: flex;
     justify-content: space-between;
+    background-color: #ededed;
+
 }
 
 button{
     cursor: pointer;
+}
+
+main{
+    /* background: black; */
+    margin-left: 70px;
+
+    padding-top: 15px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    row-gap: 30px;
+    width: 70%;
+    align-items: center;
+    background-color: #ededed;
 }

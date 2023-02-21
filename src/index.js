@@ -10,6 +10,7 @@ import { Home } from './components/main/home/Home';
 import './index.css';
 import { Backet } from './components/main/Backet/Backet';
 import { Bag } from './components/main/bagAside/Bag';
+import ProductAbout from './components/main/about/ProductAbout';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
@@ -23,6 +24,7 @@ root.render(
           <Route path='/' element={<App></App>}>
             <Route path='/' element={<><Home></Home><Bag></Bag></>}></Route>
             <Route path='/backet' element={<><Backet></Backet><Bag checkout={true}></Bag></>}></Route>
+            <Route path='/about/:id' element={<><ProductAbout></ProductAbout><Bag ></Bag></>}></Route>
           </Route>
 
         </Routes>

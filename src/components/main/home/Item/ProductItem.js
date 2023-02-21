@@ -4,19 +4,22 @@ import {BsBagPlusFill} from "react-icons/bs"
 import { useDispatch,useSelector } from 'react-redux'
 import { addProduct } from '../../../../features/counter/counterSlice'
 import FetchData from "../../../../api/FetchApi"
+import { useNavigate } from 'react-router-dom'
 
 export  function ProductItem({product}) {
-  
-  
+  let navigate = useNavigate()
+   
   
   let dispatch = useDispatch()
-  function addBacket(){
+  function addBacket(e){    
     dispatch(addProduct(product))    
-
+    e.stopPropagation()
   }
 
+  
+
   return (
-    <div  className={s.product}>
+    <div onClick={()=>navigate("about/"+product.id)} className={s.product}>
       <div className={s.image}>
         <img src={product.img[0]} alt={product.name} />
       </div>
@@ -27,7 +30,7 @@ export  function ProductItem({product}) {
         <div className={s.price}>
 
           <span>$ {product.price}</span>
-          <button onClick={addBacket}><BsBagPlusFill></BsBagPlusFill></button>
+          <button onClick={(e)=>addBacket(e)}><BsBagPlusFill></BsBagPlusFill></button>
           
         </div>
 
