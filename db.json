@@ -226,9 +226,79 @@
     }
   ],
   "backet": {
-    "backet": {}
+    "backet": {
+      "Apple Watch1": {
+        "id": 1,
+        "name": "Apple Watch",
+        "model": "Series 5 SE",
+        "price": "529.99",
+        "count": 7,
+        "rating": "2.8",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
+        "img": [
+          "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/Apple-Watch.svg",
+          "https://www.productsvsprice.com/images/electronics/smartwatch/apple/apple-watch-se-smartwatch-details-and-price-1018521970.svg",
+          "https://www.productsvsprice.com/images/electronics/smartwatch/apple/apple-watch-se-smartwatch-details-and-price-645307665.svg"
+        ]
+      },
+      "Iphone 113": {
+        "id": 3,
+        "name": "Iphone 11",
+        "model": "Serious Black",
+        "price": "619.99",
+        "count": 3,
+        "rating": "4.5",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
+        "img": [
+          "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/Apple11-Black.svg",
+          "https://maxi.az/upload/resize_cache/webp/iblock/de2/450x550q100-de2cc82df7acd0d7f15067704b830d11.webp",
+          "https://maxi.az/upload/resize_cache/webp/iblock/c94/450x550q100-c9470097a07f847889738db26f404b07.webp"
+        ]
+      },
+      "Iphone 114": {
+        "id": 4,
+        "name": "Iphone 11",
+        "model": "Subway Blue",
+        "price": "619.99",
+        "count": 11,
+        "rating": "4.5",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
+        "img": [
+          "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/apple11-Green.svg",
+          "https://productimages.hepsiburada.net/s/32/550/10356112785458.jpg",
+          "https://productimages.hepsiburada.net/s/32/1100/10356112752690.jpg/format:webp"
+        ]
+      },
+      "Sony ZX331BT2": {
+        "id": 2,
+        "name": "Sony ZX331BT",
+        "model": "Light Grey",
+        "price": "39.99",
+        "rating": "4.8",
+        "info": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quis pellentesque tellus imperdiet mattis. Proin in quis ipsum non amet imperdiet. Dignissim nisi leo a at. Sit nec lacus, nunc volutpat, tincidunt lorem mi duis. Vitae elementum libero.",
+        "count": 1,
+        "img": [
+          "https://raw.githubusercontent.com/Samir1009ms/photo/d791d678569184957cd4eb1043aba0cc31441ae0/qulaqciq.svg",
+          "https://cdn.cimri.io/image/480x480/jbl-tune-510bt-siyah-multi-connect-wireless-kulaklik_528706694.jpg",
+          "https://www.kindpng.com/picc/m/12-126171_bluetooth-kulaklk-kafa-st-hd-png-download.png"
+        ]
+      }
+    }
   },
   "newProducts": {
     "newProduct": {}
+  },
+  "personal": {
+    "address": [
+      "John Maker",
+      "123 Plae Grond Stret",
+      "Vermont, California",
+      "United States of America"
+    ],
+    "payment": [
+      "Mastercard ending in 1252",
+      "$ 53.21 gift card balance",
+      "Billing address same as Shipping Address"
+    ]
   }
 }

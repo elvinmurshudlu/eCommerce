@@ -27,4 +27,12 @@ main {
   width: 70%;
   align-items: center;
   background-color: #ededed;
+}
+
+.purchase {
+  width: 350px;
+  height: 100vh;
+  padding: 30px;
+  position: fixed;
+  right: 0;
 }/*# sourceMappingURL=App.css.map */

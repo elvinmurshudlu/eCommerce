@@ -11,9 +11,21 @@ import './index.css';
 import { Backet } from './components/main/Backet/Backet';
 import { Bag } from './components/main/bagAside/Bag';
 import ProductAbout from './components/main/about/ProductAbout';
+import Checkout from './components/main/checkout/Checkout';
 
 const container = document.getElementById('root');
 const root = createRoot(container);
+
+
+
+
+
+
+
+
+
+
+
 
 root.render(
   <React.StrictMode>
@@ -26,6 +38,7 @@ root.render(
             <Route path='/backet' element={<><Backet></Backet><Bag checkout={true}></Bag></>}></Route>
             <Route path='/about/:id' element={<><ProductAbout></ProductAbout><Bag ></Bag></>}></Route>
           </Route>
+          <Route path='/checkout' element={<Checkout></Checkout>}></Route>
 
         </Routes>
       </BrowserRouter>
